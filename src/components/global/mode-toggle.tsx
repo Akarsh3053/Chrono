@@ -16,7 +16,7 @@ export function ModeToggle() {
   const { setTheme } = useTheme()
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger asChild className='sticky'>
         <Button
           variant="outline"
           size="icon"
