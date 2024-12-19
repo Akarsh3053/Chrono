@@ -1,4 +1,5 @@
 import ProfileForm from "@/components/forms/profile-form"
+import ProfilePicture from "./_components/profile-picture"
 
 type Props = {}
 
@@ -15,6 +16,7 @@ const Settings = (props: Props) => {
                         Add or update your information
                     </p>
                 </div>
+                <ProfilePicture userImage="hello" />
                 <ProfileForm />
             </div>
         </div>
