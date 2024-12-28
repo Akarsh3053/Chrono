@@ -1,11 +1,15 @@
+import Navbar from "@/components/global/Navbar"
 
 type Props = { children: React.ReactNode }
 
 const Layout = ({ children }: Props) => {
     return (
-        <div className="flex items-center justify-center h-screen w-full">
-            {children}
-        </div>
+        <>
+            <Navbar />
+            <main className="flex items-center justify-center h-screen w-full">
+                {children}
+            </main>
+        </>
     )
 }
 
